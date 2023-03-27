@@ -94,14 +94,25 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+button {
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  border-radius: 2%;
+  box-shadow: grey 2px;
+  margin-bottom: 20px;
+}
+input {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  margin-bottom: 20px;
+
+}
 
 a {
   color: inherit;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
+/*  */

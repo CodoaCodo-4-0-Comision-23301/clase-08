@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Input from './_input'
 import Button from './_button'
+import Video from './_video'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +22,7 @@ export default function Home() {
           <p>
            Clase 08
           </p>
-          <div>
+          {/* <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
               target="_blank"
@@ -37,7 +38,7 @@ export default function Home() {
                 priority
               />
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className={styles.center}>
@@ -61,6 +62,7 @@ export default function Home() {
         </div>
         <Button></Button>
         <Input></Input>
+        <Video></Video>
       </main>
     </>
   )
