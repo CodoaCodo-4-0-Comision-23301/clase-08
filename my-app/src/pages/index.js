@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Input from './_input'
+import Button from './_button'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,6 @@ export default function Home() {
         <div className={styles.description}>
           <p>
            Clase 08
-            <code className={styles.code}>src/pages/index.js</code>
           </p>
           <div>
             <a
@@ -59,6 +59,7 @@ export default function Home() {
             />
           </div>
         </div>
+        <Button></Button>
         <Input></Input>
       </main>
     </>
